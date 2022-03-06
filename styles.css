@@ -4,3 +4,8 @@
   list-style-type: none;
 }
 
+.hero-background {
+  background: url("images/backround-images/desktop-backgrounds/hero-section-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
