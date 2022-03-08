@@ -10,3 +10,12 @@
   background-size: 50% auto;
   background-position: 100% 50%;
 }
+
+.faded-background {
+  background:
+    linear-gradient(180.45deg, #26262600 0.75%, #262626e6 84.18%),
+    url("images/other-project-screenshot.jpg");
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  min-height: 490px;
+}
