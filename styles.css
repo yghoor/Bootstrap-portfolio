@@ -26,3 +26,12 @@
   background-size: 35% auto;
   background-position: 100% 15%;
 }
+
+@media only screen and (max-width: 575px) {
+  .hero-background {
+    background: url("images/backround-images/mobile-backrounds/hero-section-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 36% auto;
+    background-position: 100% 115%;
+  }
+}
