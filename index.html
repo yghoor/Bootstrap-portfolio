@@ -12,29 +12,34 @@
   <body>
     <header class="container-fluid bg-secondary">
       <div class="col-1"></div>
-      <nav class="navbar">
+      <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container col-11">
           <a class="navbar-brand link-light fs-5 fw-bold" href="#">Yahya Ghoor</a>
 
-          <ul class="navbar-nav flex-row gap-4">
-            <li>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="mobile-navbar">
+            <ul class="navbar-nav flex-row gap-4 d-flex flex-column flex-lg-row">
+              <li class="nav-item">
               <a class="nav-link link-light" href="#project-list">Portfolio</a>
             </li>
 
-            <li>
+              <li class="nav-item">
               <a class="nav-link link-light" href="#about-me">About</a>
             </li>
             
-            <li>
-              <a class="nav-link link-light" href="#contact-me">Contact</a>
+              <li class="nav-item">
+                <a class="nav-link link" href="#contact-me">Contact</a>
             </li>
             
-            <li>
-              <a class="nav-link" href="mailto:ghooryahya@gmail.com">
+              <li class="nav-item d-none d-lg-inline-block">
+                <a class="nav-link img-fluid" href="mailto:ghooryahya@gmail.com">
                 <img class="pb-1" src="images/icons/mail-icon.svg" alt="Mail Icon" />
               </a>
             </li>
           </ul>
+        </div>
         </div>
       </nav>
     </header>
