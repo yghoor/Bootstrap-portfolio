@@ -143,14 +143,14 @@
       </header>
 
       <section class="main-project container mt-5">
-        <div class="card flex-row border-0 justify-content-center">
-          <div class="card-header p-0 me-2">
-            <img src="images/main-project-screenshot.jpg" alt="Main Project Screenshot">
-          </div>
-          <div class="card-body pt-0">
-            <h2 class="card-title mb-4 fs-1">Multi-Post Stories</h2>
+        <div class="d-flex flex-column flex-lg-row justify-content-center gap-4">
+          <aside class="col-lg-7">
+            <img src="images/main-project-screenshot.jpg" class="img-fluid" alt="Main Project Screenshot">
+          </aside>
+          <div>
+            <h2 class="mb-4 fs-1">Multi-Post Stories</h2>
 
-            <p class="card-text w-75 fs-5 mb-4">
+            <p class="col-12 col-sm-11 fs-5 mb-4">
               A daily selection of privately personalized reads; no accounts or sign-ups 
               required.has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a standard dummy text.
@@ -160,10 +160,10 @@
               <span class="badge text-dark fs-6 border border-dark rounded-0 fw-normal py-2 me-2">CSS</span>
               <span class="badge text-dark fs-6 border border-dark rounded-0 fw-normal py-2 me-2">HTML</span>
               <span class="badge text-dark fs-6 border border-dark rounded-0 fw-normal py-2 me-2">Bootstrap</span>
-              <span class="badge text-dark fs-6 border border-dark rounded-0 fw-normal py-2 me-2">Ruby</span>
+              <span class="badge text-dark fs-6 border border-dark rounded-0 fw-normal py-2">Ruby</span>
             </div>
 
-            <button type="button" class="btn btn-warning rounded-0 text-light fs-5 py-2 mt-4">See Project</button>
+            <button type="button" class="btn btn-warning rounded-0 text-light fs-5 py-2 mt-4" data-bs-toggle="modal" data-bs-target="#main-project-modal">See Project</button>
           </div>
         </div>
       </section>
