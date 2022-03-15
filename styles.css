@@ -34,4 +34,10 @@
     background-size: 36% auto;
     background-position: 100% 115%;
   }
+
+@media only screen and (max-width: 992px) {
+  #about-me h2 {
+    font-size: 72px;
+    font-weight: bold;
+  }
 }
