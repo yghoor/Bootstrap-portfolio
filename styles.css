@@ -35,6 +35,14 @@
     background-position: 100% 115%;
   }
 
+  .about-me-background {
+    background: url("images/backround-images/mobile-backrounds/about-me-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: 100% 25%;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   #about-me h2 {
     font-size: 72px;
