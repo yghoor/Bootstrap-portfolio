@@ -9,16 +9,17 @@
     <title>Bootstrap Portfolio</title>
   </head>
 
-  <body>
-    <header class="container-fluid bg-secondary">
+  <body data-bs-spy="scroll" data-bs-target="#page-navbar">
+    <header class="container-fluid">
       <div class="col-1"></div>
-      <nav class="navbar navbar-dark navbar-expand-lg">
+      <nav id="page-navbar" class="navbar fixed-top navbar-dark bg-secondary navbar-expand-lg">
         <div class="container col-11">
           <a class="navbar-brand link-light fs-5 fw-bold" href="#">Yahya Ghoor</a>
 
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-navbar" aria-controls="mobile-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse justify-content-end" id="mobile-navbar">
             <ul class="navbar-nav flex-row gap-4 d-flex flex-column flex-lg-row">
               <li class="nav-item">
