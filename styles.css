@@ -1,0 +1,59 @@
+body {
+  position: relative;
+}
+
+.remove-list-styles {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.hero-background {
+  background: url("images/backround-images/desktop-backgrounds/hero-section-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  background-position: 100% 50%;
+}
+
+.faded-background {
+  background:
+    linear-gradient(180.45deg, #26262600 0.75%, #262626e6 84.18%),
+    url("images/other-project-screenshot.jpg");
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  min-height: 490px;
+}
+
+.about-me-background {
+  background: url("images/backround-images/desktop-backgrounds/about-me-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 35% auto;
+  background-position: 100% 15%;
+}
+
+.projects button {
+  width: 94.93%;
+}
+
+@media only screen and (max-width: 575px) {
+  .hero-background {
+    background: url("images/backround-images/mobile-backrounds/hero-section-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 36% auto;
+    background-position: 100% 115%;
+  }
+
+  .about-me-background {
+    background: url("images/backround-images/mobile-backrounds/about-me-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 35% auto;
+    background-position: 100% 25%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #about-me h2 {
+    font-size: 72px;
+    font-weight: bold;
+  }
+}
