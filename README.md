@@ -12,6 +12,11 @@
 - CSS
 - Bootstrap
 
+## Improvements
+
+- Add animations to projects
+- Stretch form across screen
+
 ## Author
 
 👤 **Yahya Ghoor**
